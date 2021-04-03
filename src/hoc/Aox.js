@@ -2,7 +2,7 @@ import React from 'react';
 const  aox = (props)  => {
     return(<div>
         {props.childred}
-        <p>abcfghgjffjhgkgkggitfhf</p>
+        <p>abcfghgjffjhgkgkkgkgkgkgkgitggitfhf</p>
         </div>)
     };
 export default aox;
