@@ -1,0 +1,14 @@
+[1mdiff --git a/hoc/Aox.js b/hoc/Aox.js[m
+[1mindex dfec1d6..5b05d8a 100644[m
+[1m--- a/hoc/Aox.js[m
+[1m+++ b/hoc/Aox.js[m
+[36m@@ -2,7 +2,7 @@[m [mimport React from 'react';[m
+ const  aox = (props)  => {[m
+     return(<div>[m
+         {props.childred}[m
+[31m-        <p>abcfghfhf</p>[m
+[32m+[m[32m        <p>abcfghgjffjhgkgkggitfhf</p>[m
+         </div>)[m
+     };[m
+ export default aox;[m
+\ No newline at end of file[m
