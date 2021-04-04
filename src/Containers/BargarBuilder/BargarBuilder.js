@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import Aox from '../../hoc/Aox';
+import Bargar from '../../Components/Bargar/Barger';
 
 
 class BargarBuilder extends Component {
     render ()  {
         return (
             <Aox>
-                <div>Bargar</div>
+                <Bargar />
                 <div>Build Controls</div>
             </Aox>
         );
