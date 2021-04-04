@@ -1,7 +1,8 @@
 import React from 'react';
 const  aox = (props)  => {
+    console.log("Bilal",props);
     return(<div>
-        {props.childred}
+        {props.children}
         <p>abcfghgjffjhgkgkkgkgkgkgkgitggitfhf</p>
         </div>)
     };
