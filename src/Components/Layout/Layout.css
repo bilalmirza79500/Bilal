@@ -1,3 +1,5 @@
-Content{
+.Content {
     margin-top: 16px;
+    background-color: blueviolet;
+    color: darkblue;
 }
