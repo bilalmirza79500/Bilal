@@ -1,36 +1,37 @@
 import classes from '*.module.css';
 import React, { Component } from 'react';
 import PropType from 'prop-types';
+import './BargarIngredient.css';
 
-import calsses from './bargarIngredient.css';
-
+  
 class BargarIngredient extends Component {
+    
     render () {
         let ingredient = null;
 
         switch ( this.props.type) {
             case ('bread-bottom'):
-                    ingredient = <div className={classes.BreadBottom}></div>;
+                    ingredient = <div class='BreadBottom'></div>;
                 break;
             case ('bread-top'):
                 ingridient = (
-                    <div className={classes.BreadTop}>
-                        <div className={classes.Seeds1}></div>
-                        <div className={classes.Seeds2}></div>
+                    <div class='BreadTop'>
+                        <div class='Seeds1'></div>
+                        <div class='Seeds2'></div>
                     </div>
                 );
                 break;
             case ('meat'):
-                ingredient = <div className={classes.Meat}></div>;
+                ingredient = <div class='Meat'></div>;
                 break;
             case ('cheese'):
-                ingredient = <div className={classes.Cheese}></div>;
+                ingredient = <div class='Cheese'></div>;
                 break;
             case ('bacon'):
-                ingredient = <div className={classes.Bacon}></div>;
+                ingredient = <div class='Bacon'></div>;
                 break;
             case ('salad'):
-                ingredient = <div className={classes.Salad}></div>;
+                ingredient = <div class='Salad'></div>;
                 break;
             default:
                 ingredient = null
