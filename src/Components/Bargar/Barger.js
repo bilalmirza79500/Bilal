@@ -1,12 +1,12 @@
 import React from 'react';
-import classes from './Bargar.css';
+import './bargar.css';
 import BargarIngrident from './BargarIngredient/BargarIngredient';
 // import BargarIngridient from './BargarIngredient/BargarIngredient';
 
-const bargar = (props) => {
-    let transformedIngredients =Object.keys(props.ingredients)
+const barger = (props) => {
+    let transformedIngredients =Object.keys(props.ingredient)
         .map(igKey => {
-            return [...Array(props.ingredients[igKey])].map((_, i) =>{
+            return [...Array(props.ingredient[igKey])].map((_, i) =>{
                 return <BargarIngrident Key={igKey + i} type={igKey} />
             });
         })
@@ -17,7 +17,7 @@ const bargar = (props) => {
         transformedIngredients = <p>Please start Adding Ingredient</p>
     }    
     return (
-        <div className={classes.Bargar}>
+        <div class='Bargar'>
             <BargarIngrident type="bread-top" />
             {transformedIngredients}
             <BargarIngrident type="bread-bottom" />
@@ -27,4 +27,4 @@ const bargar = (props) => {
 
 
 
-export default bargar;
+export default barger;

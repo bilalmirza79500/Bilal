@@ -1,10 +1,10 @@
-import classes from '*.module.css';
+// import classes from '*.module.css';
 import React, { Component } from 'react';
 import PropType from 'prop-types';
 import './BargarIngredient.css';
 
   
-class BargarIngredient extends Component {
+class BargarIngrident extends Component {
     
     render () {
         let ingredient = null;
@@ -14,7 +14,7 @@ class BargarIngredient extends Component {
                     ingredient = <div class='BreadBottom'></div>;
                 break;
             case ('bread-top'):
-                ingridient = (
+                ingredient = (
                     <div class='BreadTop'>
                         <div class='Seeds1'></div>
                         <div class='Seeds2'></div>
