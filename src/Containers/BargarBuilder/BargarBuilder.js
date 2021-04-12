@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Aox from '../../hoc/Aox';
 import Bargar from '../../Components/Bargar/Barger';
+import BuildControls from '../../Components/Bargar/BuildControls/BuildControls';
 
 
 class BargarBuilder extends Component {
@@ -22,7 +23,7 @@ class BargarBuilder extends Component {
         return (
             <Aox>
                 <Bargar ingredient={this.state.ingredient} />
-                <div>Build Controls</div>
+                <BuildControls  />
             </Aox>
         );
     }
