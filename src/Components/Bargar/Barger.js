@@ -13,11 +13,11 @@ const barger = (props) => {
         .reduce((arr, el)=> {
             return arr.concat(el)
         }, []);
-    if (transformedIngredients.length == 0) {
+    if (transformedIngredients.length === 0) {
         transformedIngredients = <p>Please start Adding Ingredient</p>
     }    
     return (
-        <div class='Bargar'>
+        <div className='Bargar'>
             <BargarIngrident type="bread-top" />
             {transformedIngredients}
             <BargarIngrident type="bread-bottom" />
